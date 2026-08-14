@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Ilovasi</title>
+    <!-- CSS va shriftlarni <head> ichida e'lon qilamiz -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Amatic SC', cursive;
+            font-weight: normal;
+            color: #8ac640;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bu yerga dinamik kontent kelib tushadi -->
+    {% block body %}
+    {% endblock %}
+
+</body>
+</html>
