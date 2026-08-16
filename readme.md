@@ -6,7 +6,6 @@ A simple web application built using Python and the Flask microframework. The pr
 
 ```text
 .
-|──
 └── templates/
     ├── layout.html
     └── test.html
@@ -14,6 +13,7 @@ A simple web application built using Python and the Flask microframework. The pr
 ├── main.py
 ├──readme.md
 └──requirements.txt
+```
 
 ### Install requirements
 ```bash
